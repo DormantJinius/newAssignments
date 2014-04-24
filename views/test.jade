@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/bootstrap-theme.min.css')
+        link(rel='stylesheet', href='css/main.css')
+        script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+        script(type='text/javascript', src='js/bootstrap.min.js')
+        script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js')
+        script(src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js')
+
+    body
+        li.dropdown
+    a.dropdown-toggle(href='#', data-toggle='dropdown')
+        | Dropdown
+        b.caret
+        ul.dropdown-menu
+            li
+                a(href='#') Action
+            li
+                a(href='#') Another action
+            li
+                a(href='#') Something else here
+            li.divider
+            li.dropdown-header Nav header
+            li
+                a(href='#') Separated link
+            li
+                a(href='#') One more separated link
